@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <userinfo>
+        <AppId>079b8de8-0894-411b-aa48-853bb48f069d</AppId>
+        <clientId>15500000000</clientId>
+        <clientSecret>12345678a</clientSecret>
+        <url>http://172.16.1.111/aiaf/sgw/v1/security/login</url>
+    </userinfo>
+    <userinfo>
+        <AppId>e816f361-3725-4a24-8481-3f1feae47ec9</AppId>
+        <mobile>267004</mobile>
+        <smsCaptcha>ddd</smsCaptcha>
+        <clientSecret>12345678a</clientSecret>
+        <email>david@163.com</email>
+        <loginId>1231</loginId>
+        <url>http://58.247.2.58:92/aiaf/sgw/v1/security/register</url>
+    </userinfo>
+    <userinfo>
+        <AppId>b828761a-2ea1-41a0-8d7f-62362098af7f</AppId>
+        <clientId>13980000000</clientId>
+        <clientSecret>12345678a</clientSecret>
+        <X-App-Id>b828761a-2ea1-41a0-8d7f-62362098af7f</X-App-Id>
+        <X-Token>rJZIfj4yJ5XFj5eFOSAN</X-Token>
+        <url>http://172.16.1.85/aiaf/sgw/v1/security/login</url>
+    </userinfo>
+</users>

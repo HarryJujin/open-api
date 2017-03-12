@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+1，标注Focus注解，设置groups属性，只有配置了的group才能被扫描
+2，配置要扫描的包
+3, 配置过滤器，配置顺序即过滤顺序
+-->
+<test>
+    <groups>
+        <group>endpoint</group>
+        <group>secutity</group>
+    </groups>
+    <packages>
+        <package>com.fc.focus.api.endpoint.security</package>
+        <package>com.fc.focus</package>
+    </packages>
+    <filters>
+        <filter>com.fc.focus.api.common.packageScan.AnnotationFilter2</filter>
+        <filter>com.fc.focus.api.common.packageScan.AnnotationFilter</filter>
+    </filters>
+</test>
+
+
+
